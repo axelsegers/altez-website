@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Altez — Industriebouw, renovatie en agro sinds 1989</title>
-<meta name="description" content="Altez Construction Group bouwt al meer dan 35 jaar industriegebouwen, renovaties, landbouwgebouwen en paardenprojecten in de Benelux, Frankrijk en Duitsland. Eigen staalbouw en betonproductie." />
+<title data-i18n="doc.title">Altez — Industriebouw, renovatie en agro sinds 1989</title>
+<meta name="description" data-i18n-attr="content:doc.description" content="Altez Construction Group bouwt al meer dan 35 jaar industriegebouwen, renovaties, landbouwgebouwen en paardenprojecten in de Benelux, Frankrijk en Duitsland. Eigen staalbouw en betonproductie." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -21,20 +21,26 @@
     </a>
 
     <nav class="nav" aria-label="Hoofdnavigatie">
-      <a href="#diensten">Diensten</a>
-      <a href="#sectoren">Sectoren</a>
-      <a href="#realisaties">Realisaties</a>
-      <a href="#aanpak">Aanpak</a>
-      <a href="#over">Over ons</a>
-      <a href="#contact">Contact</a>
+      <a href="#diensten" data-i18n="nav.services">Diensten</a>
+      <a href="#sectoren" data-i18n="nav.sectors">Sectoren</a>
+      <a href="#realisaties" data-i18n="nav.projects">Realisaties</a>
+      <a href="#aanpak" data-i18n="nav.approach">Aanpak</a>
+      <a href="#over" data-i18n="nav.about">Over ons</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
 
     <div class="header__cta">
+      <div class="langs" role="group" aria-label="Taal kiezen">
+        <button class="lang-btn is-active" data-lang="nl">NL</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="de">DE</button>
+      </div>
       <a href="tel:+3251259999" class="header__phone">+32 (0)51 25 99 99</a>
-      <a href="#contact" class="btn btn--primary btn--sm">Offerte aanvragen</a>
+      <a href="#contact" class="btn btn--primary btn--sm" data-i18n="header.cta">Offerte aanvragen</a>
     </div>
 
-    <button class="burger" aria-label="Menu openen" aria-expanded="false">
+    <button class="burger" aria-label="Menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -51,36 +57,36 @@
   <div class="hero__veil" aria-hidden="true"></div>
 
   <div class="container hero__content">
-    <span class="eyebrow eyebrow--light"><span class="eyebrow__dot"></span> Altez Construction Group · sinds 1989</span>
-    <h1 class="h1 hero__title">
+    <span class="eyebrow eyebrow--light"><span class="eyebrow__dot"></span> <span data-i18n="hero.eyebrow">Altez Construction Group · sinds 1989</span></span>
+    <h1 class="h1 hero__title" data-i18n="hero.title">
       Wij bouwen <span class="accent">ruimte</span><br/>voor uw groei.
     </h1>
-    <p class="lead hero__lead">
+    <p class="lead hero__lead" data-i18n="hero.lead">
       Industriebouw, renovatie, landbouw en paardenprojecten — met eigen staalconstructies, eigen betonproductie en één aanspreekpunt. Van eerste schets tot oplevering en daarna.
     </p>
     <div class="hero__actions">
       <a href="#contact" class="btn btn--primary btn--lg">
-        Plan een gesprek
+        <span data-i18n="hero.btn.primary">Plan een gesprek</span>
         <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
-      <a href="#realisaties" class="btn btn--ghost btn--lg btn--ghost-light">Bekijk realisaties</a>
+      <a href="#realisaties" class="btn btn--ghost btn--lg btn--ghost-light" data-i18n="hero.btn.ghost">Bekijk realisaties</a>
     </div>
 
     <div class="hero__meta">
       <ul class="hero__points">
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Eigen engineering &amp; productie</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Eén aanspreekpunt</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Korte doorlooptijd</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> <span data-i18n="hero.point.1">Eigen engineering &amp; productie</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> <span data-i18n="hero.point.2">Eén aanspreekpunt</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> <span data-i18n="hero.point.3">Korte doorlooptijd</span></li>
       </ul>
 
       <div class="hero__badge">
         <div class="badge__num">35<sup>+</sup></div>
-        <div class="badge__label">jaar bouwexpertise<br/>in industrie &amp; agro</div>
+        <div class="badge__label" data-i18n="hero.badge.label">jaar bouwexpertise<br/>in industrie &amp; agro</div>
       </div>
     </div>
   </div>
 
-  <a href="#diensten" class="hero__scroll" aria-label="Scroll naar volgende sectie">
+  <a href="#diensten" class="hero__scroll" aria-label="Scroll" data-i18n-attr="aria-label:hero.scroll.aria">
     <span></span>
   </a>
 </section>
@@ -88,19 +94,19 @@
 <!-- ============== TRUST STRIP ============== -->
 <section class="trust">
   <div class="container trust__inner">
-    <span class="trust__label">Actief in</span>
+    <span class="trust__label" data-i18n="trust.active">Actief in</span>
     <ul class="trust__list">
-      <li>België</li>
-      <li>Nederland</li>
-      <li>Luxemburg</li>
-      <li>Frankrijk</li>
-      <li>Duitsland</li>
+      <li data-i18n="trust.country.be">België</li>
+      <li data-i18n="trust.country.nl">Nederland</li>
+      <li data-i18n="trust.country.lu">Luxemburg</li>
+      <li data-i18n="trust.country.fr">Frankrijk</li>
+      <li data-i18n="trust.country.de">Duitsland</li>
     </ul>
     <span class="trust__divider"></span>
-    <span class="trust__label">Eigen productie</span>
+    <span class="trust__label" data-i18n="trust.production">Eigen productie</span>
     <ul class="trust__list trust__list--brand">
-      <li>Meco Metal — staalbouw</li>
-      <li>LG-Beton — betonpanelen</li>
+      <li data-i18n="trust.brand.meco">Meco Metal — staalbouw</li>
+      <li data-i18n="trust.brand.lg">LG-Beton — betonpanelen</li>
     </ul>
   </div>
 </section>
@@ -109,9 +115,9 @@
 <section class="section" id="diensten">
   <div class="container">
     <div class="section__head">
-      <span class="eyebrow"><span class="eyebrow__dot"></span> Diensten</span>
-      <h2 class="h2">Vijf specialisaties onder één dak</h2>
-      <p class="section__intro">
+      <span class="eyebrow"><span class="eyebrow__dot"></span> <span data-i18n="services.eyebrow">Diensten</span></span>
+      <h2 class="h2" data-i18n="services.title">Vijf specialisaties onder één dak</h2>
+      <p class="section__intro" data-i18n="services.intro">
         We zijn een geïntegreerde bouwpartner. Engineering, productie, uitvoering en nazorg — alles in eigen huis, zonder afhankelijkheid van externe schakels.
       </p>
     </div>
@@ -125,9 +131,9 @@
             <rect x="20" y="30" width="8" height="12" fill="currentColor"/>
           </svg>
         </div>
-        <h3>Industriebouw</h3>
-        <p>Productiehallen, distributiecentra, kantoren en showrooms — afgestemd op uw processen en logistiek.</p>
-        <a href="#" class="service-card__link">Meer info <span>→</span></a>
+        <h3 data-i18n="services.industrie.title">Industriebouw</h3>
+        <p data-i18n="services.industrie.desc">Productiehallen, distributiecentra, kantoren en showrooms — afgestemd op uw processen en logistiek.</p>
+        <a href="#" class="service-card__link"><span data-i18n="services.link">Meer info</span> <span>→</span></a>
       </article>
 
       <article class="service-card">
@@ -139,9 +145,9 @@
             <path d="M32 30l3 3 5-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <h3>Renovatie</h3>
-        <p>Bestaande gebouwen energetisch en functioneel optimaliseren — zonder dat uw bedrijf stilvalt.</p>
-        <a href="#" class="service-card__link">Meer info <span>→</span></a>
+        <h3 data-i18n="services.renovatie.title">Renovatie</h3>
+        <p data-i18n="services.renovatie.desc">Bestaande gebouwen energetisch en functioneel optimaliseren — zonder dat uw bedrijf stilvalt.</p>
+        <a href="#" class="service-card__link"><span data-i18n="services.link">Meer info</span> <span>→</span></a>
       </article>
 
       <article class="service-card">
@@ -152,9 +158,9 @@
             <path d="M16 28v14M24 28v14M32 28v14" stroke="currentColor" stroke-width="2"/>
           </svg>
         </div>
-        <h3>Landbouwbouw</h3>
-        <p>Stallen, loodsen en agro-gebouwen — robuust ontworpen voor het ritme van de seizoenen.</p>
-        <a href="#" class="service-card__link">Meer info <span>→</span></a>
+        <h3 data-i18n="services.landbouw.title">Landbouwbouw</h3>
+        <p data-i18n="services.landbouw.desc">Stallen, loodsen en agro-gebouwen — robuust ontworpen voor het ritme van de seizoenen.</p>
+        <a href="#" class="service-card__link"><span data-i18n="services.link">Meer info</span> <span>→</span></a>
       </article>
 
       <article class="service-card">
@@ -166,9 +172,9 @@
             <circle cx="28" cy="28" r="2" fill="currentColor"/>
           </svg>
         </div>
-        <h3>Paardenprojecten</h3>
-        <p>Pistes, stallen en hippische infrastructuur, met aandacht voor dier, ruiter en omgeving.</p>
-        <a href="#" class="service-card__link">Meer info <span>→</span></a>
+        <h3 data-i18n="services.paarden.title">Paardenprojecten</h3>
+        <p data-i18n="services.paarden.desc">Pistes, stallen en hippische infrastructuur, met aandacht voor dier, ruiter en omgeving.</p>
+        <a href="#" class="service-card__link"><span data-i18n="services.link">Meer info</span> <span>→</span></a>
       </article>
 
       <article class="service-card">
@@ -178,15 +184,15 @@
             <path d="M24 14v10l7 4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <h3>Service &amp; onderhoud</h3>
-        <p>Na de oplevering blijven we. Preventief onderhoud, herstellingen en uitbreidingen.</p>
-        <a href="#" class="service-card__link">Meer info <span>→</span></a>
+        <h3 data-i18n="services.service.title">Service &amp; onderhoud</h3>
+        <p data-i18n="services.service.desc">Na de oplevering blijven we. Preventief onderhoud, herstellingen en uitbreidingen.</p>
+        <a href="#" class="service-card__link"><span data-i18n="services.link">Meer info</span> <span>→</span></a>
       </article>
 
       <article class="service-card service-card--cta">
-        <h3>Iets specifieks?</h3>
-        <p>Niet elk project past in een vakje. Vertel ons wat u in gedachten hebt, dan kijken we er samen naar.</p>
-        <a href="#contact" class="btn btn--primary btn--sm">Contacteer ons</a>
+        <h3 data-i18n="services.cta.title">Iets specifieks?</h3>
+        <p data-i18n="services.cta.desc">Niet elk project past in een vakje. Vertel ons wat u in gedachten hebt, dan kijken we er samen naar.</p>
+        <a href="#contact" class="btn btn--primary btn--sm" data-i18n="services.cta.btn">Contacteer ons</a>
       </article>
     </div>
   </div>
@@ -197,19 +203,19 @@
   <div class="container stats__inner">
     <div class="stat">
       <span class="stat__num" data-target="35" data-suffix="+">0</span>
-      <span class="stat__label">jaar ervaring</span>
+      <span class="stat__label" data-i18n="stats.experience">jaar ervaring</span>
     </div>
     <div class="stat">
       <span class="stat__num" data-target="5">0</span>
-      <span class="stat__label">landen actief</span>
+      <span class="stat__label" data-i18n="stats.countries">landen actief</span>
     </div>
     <div class="stat">
       <span class="stat__num" data-target="2">0</span>
-      <span class="stat__label">eigen productiesites</span>
+      <span class="stat__label" data-i18n="stats.production">eigen productiesites</span>
     </div>
     <div class="stat">
       <span class="stat__num">1</span>
-      <span class="stat__label">aanspreekpunt</span>
+      <span class="stat__label" data-i18n="stats.contact">aanspreekpunt</span>
     </div>
   </div>
 </section>
@@ -218,23 +224,23 @@
 <section class="section section--alt" id="over">
   <div class="container about">
     <div class="about__copy">
-      <span class="eyebrow"><span class="eyebrow__dot"></span> Over Altez</span>
-      <h2 class="h2">Meer dan 35 jaar bouwen<br/>aan de bedrijven van morgen.</h2>
-      <p>
+      <span class="eyebrow"><span class="eyebrow__dot"></span> <span data-i18n="about.eyebrow">Over Altez</span></span>
+      <h2 class="h2" data-i18n="about.title">Meer dan 35 jaar bouwen<br/>aan de bedrijven van morgen.</h2>
+      <p data-i18n="about.p1">
         Altez Construction Group is een geïntegreerde bouwpartner met hoofdzetel in Tielt en een tweede vestiging in Oudsbergen. Onze sterkte: alles in eigen huis — van engineeringbureau en BIM-modellering tot eigen staalproductie (Meco Metal) en betonpanelen (LG-Beton).
       </p>
-      <p>
+      <p data-i18n="about.p2">
         Dat betekent kortere doorlooptijden, transparante prijzen en één verantwoordelijke voor het volledige traject. Voor u: minder zorgen, sneller resultaat.
       </p>
 
       <ul class="checks">
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Geïntegreerd engineering- &amp; productieproces</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> BIM-engineering &amp; design&amp;build</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Energie-efficiënte &amp; duurzame constructies</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Service en onderhoud na oplevering</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> <span data-i18n="about.check.1">Geïntegreerd engineering- &amp; productieproces</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> <span data-i18n="about.check.2">BIM-engineering &amp; design&amp;build</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> <span data-i18n="about.check.3">Energie-efficiënte &amp; duurzame constructies</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L20 6.5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> <span data-i18n="about.check.4">Service en onderhoud na oplevering</span></li>
       </ul>
 
-      <a href="#contact" class="btn btn--dark">Plan een kennismaking</a>
+      <a href="#contact" class="btn btn--dark" data-i18n="about.btn">Plan een kennismaking</a>
     </div>
 
     <div class="about__visual">
@@ -244,16 +250,16 @@
 
       <div class="about__panel">
         <div class="about__panel-item">
-          <span class="about__panel-label">Hoofdzetel</span>
-          <span class="about__panel-val">Tielt</span>
+          <span class="about__panel-label" data-i18n="about.panel.hq.label">Hoofdzetel</span>
+          <span class="about__panel-val" data-i18n="about.panel.hq.val">Tielt</span>
         </div>
         <div class="about__panel-item">
-          <span class="about__panel-label">Werkgebied</span>
-          <span class="about__panel-val">BE · NL · LU · DE · FR</span>
+          <span class="about__panel-label" data-i18n="about.panel.region.label">Werkgebied</span>
+          <span class="about__panel-val" data-i18n="about.panel.region.val">BE · NL · LU · DE · FR</span>
         </div>
         <div class="about__panel-item">
-          <span class="about__panel-label">Werkwijze</span>
-          <span class="about__panel-val">BIM &amp; Design&amp;Build</span>
+          <span class="about__panel-label" data-i18n="about.panel.method.label">Werkwijze</span>
+          <span class="about__panel-val" data-i18n="about.panel.method.val">BIM &amp; Design&amp;Build</span>
         </div>
       </div>
     </div>
@@ -264,9 +270,9 @@
 <section class="section" id="aanpak">
   <div class="container">
     <div class="section__head section__head--center">
-      <span class="eyebrow"><span class="eyebrow__dot"></span> Onze aanpak</span>
-      <h2 class="h2">Van eerste schets tot sleutel op de deur</h2>
-      <p class="section__intro">
+      <span class="eyebrow"><span class="eyebrow__dot"></span> <span data-i18n="approach.eyebrow">Onze aanpak</span></span>
+      <h2 class="h2" data-i18n="approach.title">Van eerste schets tot sleutel op de deur</h2>
+      <p class="section__intro" data-i18n="approach.intro">
         Zes duidelijke fases. Eén verantwoordelijke. Geen versnipperde communicatie tussen architecten, aannemers en onderaannemers.
       </p>
     </div>
@@ -274,33 +280,33 @@
     <ol class="steps">
       <li class="step">
         <span class="step__num">01</span>
-        <h4>Concept &amp; visie</h4>
-        <p>We luisteren naar uw groeiplan, processen en site, en vertalen die input naar een eerste ontwerp.</p>
+        <h4 data-i18n="approach.s1.title">Concept &amp; visie</h4>
+        <p data-i18n="approach.s1.desc">We luisteren naar uw groeiplan, processen en site, en vertalen die input naar een eerste ontwerp.</p>
       </li>
       <li class="step">
         <span class="step__num">02</span>
-        <h4>Ontwerp &amp; engineering</h4>
-        <p>BIM-modellering, stabiliteitsstudie en technieken — alles in huis, alles op elkaar afgestemd.</p>
+        <h4 data-i18n="approach.s2.title">Ontwerp &amp; engineering</h4>
+        <p data-i18n="approach.s2.desc">BIM-modellering, stabiliteitsstudie en technieken — alles in huis, alles op elkaar afgestemd.</p>
       </li>
       <li class="step">
         <span class="step__num">03</span>
-        <h4>Vergunningen</h4>
-        <p>Wij dragen het dossier en zorgen voor een volledige, vlot leesbare vergunningsaanvraag.</p>
+        <h4 data-i18n="approach.s3.title">Vergunningen</h4>
+        <p data-i18n="approach.s3.desc">Wij dragen het dossier en zorgen voor een volledige, vlot leesbare vergunningsaanvraag.</p>
       </li>
       <li class="step">
         <span class="step__num">04</span>
-        <h4>Projectbegeleiding</h4>
-        <p>Eén aanspreekpunt, transparante planning en wekelijkse opvolging tot aan oplevering.</p>
+        <h4 data-i18n="approach.s4.title">Projectbegeleiding</h4>
+        <p data-i18n="approach.s4.desc">Eén aanspreekpunt, transparante planning en wekelijkse opvolging tot aan oplevering.</p>
       </li>
       <li class="step">
         <span class="step__num">05</span>
-        <h4>Kwaliteitscontrole</h4>
-        <p>Eigen productie betekent eigen normen. We meten, controleren en documenteren elk onderdeel.</p>
+        <h4 data-i18n="approach.s5.title">Kwaliteitscontrole</h4>
+        <p data-i18n="approach.s5.desc">Eigen productie betekent eigen normen. We meten, controleren en documenteren elk onderdeel.</p>
       </li>
       <li class="step">
         <span class="step__num">06</span>
-        <h4>Service &amp; onderhoud</h4>
-        <p>De oplevering is geen eindpunt. We blijven uw gebouw verzorgen, jaren lang.</p>
+        <h4 data-i18n="approach.s6.title">Service &amp; onderhoud</h4>
+        <p data-i18n="approach.s6.desc">De oplevering is geen eindpunt. We blijven uw gebouw verzorgen, jaren lang.</p>
       </li>
     </ol>
   </div>
@@ -311,10 +317,10 @@
   <div class="container">
     <div class="section__head section__head--row">
       <div>
-        <span class="eyebrow"><span class="eyebrow__dot"></span> Realisaties</span>
-        <h2 class="h2">Een greep uit ons werk</h2>
+        <span class="eyebrow"><span class="eyebrow__dot"></span> <span data-i18n="projects.eyebrow">Realisaties</span></span>
+        <h2 class="h2" data-i18n="projects.title">Een greep uit ons werk</h2>
       </div>
-      <a href="#" class="btn btn--ghost btn--sm">Alle projecten <span>→</span></a>
+      <a href="#" class="btn btn--ghost btn--sm"><span data-i18n="projects.all">Alle projecten</span> <span>→</span></a>
     </div>
 
     <div class="projects">
@@ -323,9 +329,9 @@
           <img src="images/project-witrans.jpg" alt="Witrans Bastogne — logistiek complex door Altez" loading="lazy" />
         </div>
         <div class="project__body">
-          <span class="project__tag">Logistiek · Bastogne</span>
-          <h3>Witrans</h3>
-          <p>Logistiek complex met laadkades en kantoorgedeelte — turnkey gerealiseerd door Altez.</p>
+          <span class="project__tag" data-i18n="projects.witrans.tag">Logistiek · Bastogne</span>
+          <h3 data-i18n="projects.witrans.title">Witrans</h3>
+          <p data-i18n="projects.witrans.desc">Logistiek complex met laadkades en kantoorgedeelte — turnkey gerealiseerd door Altez.</p>
         </div>
       </article>
 
@@ -334,9 +340,9 @@
           <img src="images/project-fitout.jpg" alt="FitOut Destelbergen — industriegebouw door Altez" loading="lazy" />
         </div>
         <div class="project__body">
-          <span class="project__tag">Industriebouw · Destelbergen</span>
-          <h3>FitOut</h3>
-          <p>Industriegebouw met geïntegreerde kantoorruimte en moderne productiehallen voor groeiende activiteit.</p>
+          <span class="project__tag" data-i18n="projects.fitout.tag">Industriebouw · Destelbergen</span>
+          <h3 data-i18n="projects.fitout.title">FitOut</h3>
+          <p data-i18n="projects.fitout.desc">Industriegebouw met geïntegreerde kantoorruimte en moderne productiehallen voor groeiende activiteit.</p>
         </div>
       </article>
 
@@ -345,9 +351,9 @@
           <img src="images/project-snoek.jpg" alt="Familie Snoek &amp; Van der Eijk — landbouwgebouw door Altez" loading="lazy" />
         </div>
         <div class="project__body">
-          <span class="project__tag">Landbouw · Familie Snoek &amp; Van der Eijk</span>
-          <h3>Agrarische bouw</h3>
-          <p>Robuust landbouwgebouw uitgevoerd in eigen staal- en betonproductie, op maat van de bedrijfsvoering.</p>
+          <span class="project__tag" data-i18n="projects.snoek.tag">Landbouw · Familie Snoek &amp; Van der Eijk</span>
+          <h3 data-i18n="projects.snoek.title">Agrarische bouw</h3>
+          <p data-i18n="projects.snoek.desc">Robuust landbouwgebouw uitgevoerd in eigen staal- en betonproductie, op maat van de bedrijfsvoering.</p>
         </div>
       </article>
 
@@ -356,9 +362,9 @@
           <img src="images/project-veurne.jpg" alt="VA Projects Veurne — industriebouw door Altez" loading="lazy" />
         </div>
         <div class="project__body">
-          <span class="project__tag">Industriebouw · Veurne</span>
-          <h3>VA Projects</h3>
-          <p>Industriegebouw met representatieve voorgevel en flexibele indeling voor productie en opslag.</p>
+          <span class="project__tag" data-i18n="projects.veurne.tag">Industriebouw · Veurne</span>
+          <h3 data-i18n="projects.veurne.title">VA Projects</h3>
+          <p data-i18n="projects.veurne.desc">Industriegebouw met representatieve voorgevel en flexibele indeling voor productie en opslag.</p>
         </div>
       </article>
 
@@ -367,9 +373,9 @@
           <img src="images/project-arvesta.jpg" alt="Arvesta-Aveve kantoor Wilsele — renovatie door Altez" loading="lazy" />
         </div>
         <div class="project__body">
-          <span class="project__tag">Renovatie · Wilsele</span>
-          <h3>Arvesta — AVEVE kantoor</h3>
-          <p>Volledige kantoorrenovatie waarbij Altez de bestaande structuur energetisch en functioneel heeft opgewaardeerd.</p>
+          <span class="project__tag" data-i18n="projects.arvesta.tag">Renovatie · Wilsele</span>
+          <h3 data-i18n="projects.arvesta.title">Arvesta — AVEVE kantoor</h3>
+          <p data-i18n="projects.arvesta.desc">Volledige kantoorrenovatie waarbij Altez de bestaande structuur energetisch en functioneel heeft opgewaardeerd.</p>
         </div>
       </article>
 
@@ -378,9 +384,9 @@
           <img src="images/project-offside.jpg" alt="Offside Torhout — retail door Altez" loading="lazy" />
         </div>
         <div class="project__body">
-          <span class="project__tag">Retail &amp; showroom · Torhout</span>
-          <h3>Offside</h3>
-          <p>Modern handelsgebouw met grote glaspartijen, retailruimte en strakke architecturale signatuur.</p>
+          <span class="project__tag" data-i18n="projects.offside.tag">Retail &amp; showroom · Torhout</span>
+          <h3 data-i18n="projects.offside.title">Offside</h3>
+          <p data-i18n="projects.offside.desc">Modern handelsgebouw met grote glaspartijen, retailruimte en strakke architecturale signatuur.</p>
         </div>
       </article>
     </div>
@@ -391,22 +397,22 @@
 <section class="section" id="sectoren">
   <div class="container">
     <div class="section__head">
-      <span class="eyebrow"><span class="eyebrow__dot"></span> Sectoren</span>
-      <h2 class="h2">Acht sectoren, één bouwteam</h2>
-      <p class="section__intro">
+      <span class="eyebrow"><span class="eyebrow__dot"></span> <span data-i18n="sectors.eyebrow">Sectoren</span></span>
+      <h2 class="h2" data-i18n="sectors.title">Acht sectoren, één bouwteam</h2>
+      <p class="section__intro" data-i18n="sectors.intro">
         Elke sector heeft eigen normen, eigen flow en eigen technische vereisten. Onze ervaring strekt zich uit van zware industrie tot hippische infrastructuur.
       </p>
     </div>
 
     <div class="sectors">
-      <div class="sector"><span class="sector__idx">01</span><h4>Distributie &amp; logistiek</h4><p>Vloeiende goederenstromen, slimme laadkades, flexibele opslag.</p></div>
-      <div class="sector"><span class="sector__idx">02</span><h4>Retail &amp; showrooms</h4><p>Ruimtes die functionaliteit en merkbeleving samenbrengen.</p></div>
-      <div class="sector"><span class="sector__idx">03</span><h4>Kantoren</h4><p>Werkomgevingen die productiviteit en welzijn ondersteunen.</p></div>
-      <div class="sector"><span class="sector__idx">04</span><h4>Productie &amp; ateliers</h4><p>Hoge plafonds, technische voorzieningen, efficiënte flow.</p></div>
-      <div class="sector"><span class="sector__idx">05</span><h4>Voedingsindustrie</h4><p>HACCP-conform, hygiënisch en volledig traceerbaar.</p></div>
-      <div class="sector"><span class="sector__idx">06</span><h4>KMO-units</h4><p>Modulair en schaalbaar — kantoor, productie en opslag in één.</p></div>
-      <div class="sector"><span class="sector__idx">07</span><h4>Sport &amp; recreatie</h4><p>Klimaatzuinige hallen met optimale speeloppervlakken.</p></div>
-      <div class="sector"><span class="sector__idx">08</span><h4>Automotive</h4><p>Garages en carwashes met chemisch bestendige vloeren.</p></div>
+      <div class="sector"><span class="sector__idx">01</span><h4 data-i18n="sectors.1.title">Distributie &amp; logistiek</h4><p data-i18n="sectors.1.desc">Vloeiende goederenstromen, slimme laadkades, flexibele opslag.</p></div>
+      <div class="sector"><span class="sector__idx">02</span><h4 data-i18n="sectors.2.title">Retail &amp; showrooms</h4><p data-i18n="sectors.2.desc">Ruimtes die functionaliteit en merkbeleving samenbrengen.</p></div>
+      <div class="sector"><span class="sector__idx">03</span><h4 data-i18n="sectors.3.title">Kantoren</h4><p data-i18n="sectors.3.desc">Werkomgevingen die productiviteit en welzijn ondersteunen.</p></div>
+      <div class="sector"><span class="sector__idx">04</span><h4 data-i18n="sectors.4.title">Productie &amp; ateliers</h4><p data-i18n="sectors.4.desc">Hoge plafonds, technische voorzieningen, efficiënte flow.</p></div>
+      <div class="sector"><span class="sector__idx">05</span><h4 data-i18n="sectors.5.title">Voedingsindustrie</h4><p data-i18n="sectors.5.desc">HACCP-conform, hygiënisch en volledig traceerbaar.</p></div>
+      <div class="sector"><span class="sector__idx">06</span><h4 data-i18n="sectors.6.title">KMO-units</h4><p data-i18n="sectors.6.desc">Modulair en schaalbaar — kantoor, productie en opslag in één.</p></div>
+      <div class="sector"><span class="sector__idx">07</span><h4 data-i18n="sectors.7.title">Sport &amp; recreatie</h4><p data-i18n="sectors.7.desc">Klimaatzuinige hallen met optimale speeloppervlakken.</p></div>
+      <div class="sector"><span class="sector__idx">08</span><h4 data-i18n="sectors.8.title">Automotive</h4><p data-i18n="sectors.8.desc">Garages en carwashes met chemisch bestendige vloeren.</p></div>
     </div>
   </div>
 </section>
@@ -415,11 +421,11 @@
 <section class="cta-band">
   <div class="container cta-band__inner">
     <div>
-      <h2 class="cta-band__title">Klaar om uw volgende project te starten?</h2>
-      <p class="cta-band__sub">Bel ons direct of vraag vrijblijvend een offerte aan. We reageren binnen één werkdag.</p>
+      <h2 class="cta-band__title" data-i18n="cta.title">Klaar om uw volgende project te starten?</h2>
+      <p class="cta-band__sub" data-i18n="cta.sub">Bel ons direct of vraag vrijblijvend een offerte aan. We reageren binnen één werkdag.</p>
     </div>
     <div class="cta-band__actions">
-      <a href="#contact" class="btn btn--primary btn--lg">Offerte aanvragen</a>
+      <a href="#contact" class="btn btn--primary btn--lg" data-i18n="cta.btn">Offerte aanvragen</a>
       <a href="tel:+3251259999" class="btn btn--ghost btn--lg btn--ghost-light">+32 (0)51 25 99 99</a>
     </div>
   </div>
@@ -429,15 +435,15 @@
 <section class="section" id="contact">
   <div class="container contact">
     <div class="contact__intro">
-      <span class="eyebrow"><span class="eyebrow__dot"></span> Contact</span>
-      <h2 class="h2">Vertel ons over uw project</h2>
-      <p>
+      <span class="eyebrow"><span class="eyebrow__dot"></span> <span data-i18n="contact.eyebrow">Contact</span></span>
+      <h2 class="h2" data-i18n="contact.title">Vertel ons over uw project</h2>
+      <p data-i18n="contact.intro">
         Een schets, een grondplan of gewoon een idee — we helpen u graag verder denken. Vul het formulier in of contacteer rechtstreeks een van onze vestigingen.
       </p>
 
       <div class="locations">
         <article class="location">
-          <span class="location__tag">Hoofdzetel</span>
+          <span class="location__tag" data-i18n="contact.loc.hq">Hoofdzetel</span>
           <h4>Tielt</h4>
           <address>
             Szamotulystraat 5<br/>
@@ -447,7 +453,7 @@
         </article>
 
         <article class="location">
-          <span class="location__tag">Vestiging</span>
+          <span class="location__tag" data-i18n="contact.loc.branch">Vestiging</span>
           <h4>Oudsbergen</h4>
           <address>
             Weg op Bree 125<br/>
@@ -458,54 +464,54 @@
       </div>
 
       <p class="contact__email">
-        Liever mailen? <a href="mailto:sales@altez.be">sales@altez.be</a>
+        <span data-i18n="contact.email.prefix">Liever mailen?</span> <a href="mailto:sales@altez.be">sales@altez.be</a>
       </p>
     </div>
 
     <form class="form" onsubmit="event.preventDefault(); this.querySelector('.form__success').hidden=false;">
       <div class="form__row">
         <label class="field">
-          <span>Voor- en achternaam</span>
-          <input type="text" name="name" required placeholder="Jan Janssens" />
+          <span data-i18n="form.name">Voor- en achternaam</span>
+          <input type="text" name="name" required placeholder="Jan Janssens" data-i18n-attr="placeholder:form.name.ph" />
         </label>
         <label class="field">
-          <span>Bedrijf</span>
-          <input type="text" name="company" placeholder="Bedrijfsnaam" />
+          <span data-i18n="form.company">Bedrijf</span>
+          <input type="text" name="company" placeholder="Bedrijfsnaam" data-i18n-attr="placeholder:form.company.ph" />
         </label>
       </div>
       <div class="form__row">
         <label class="field">
-          <span>E-mailadres</span>
-          <input type="email" name="email" required placeholder="naam@bedrijf.be" />
+          <span data-i18n="form.email">E-mailadres</span>
+          <input type="email" name="email" required placeholder="naam@bedrijf.be" data-i18n-attr="placeholder:form.email.ph" />
         </label>
         <label class="field">
-          <span>Telefoon</span>
-          <input type="tel" name="phone" placeholder="+32 ..." />
+          <span data-i18n="form.phone">Telefoon</span>
+          <input type="tel" name="phone" placeholder="+32 ..." data-i18n-attr="placeholder:form.phone.ph" />
         </label>
       </div>
       <label class="field">
-        <span>Type project</span>
+        <span data-i18n="form.type">Type project</span>
         <select name="type">
-          <option>Industriebouw</option>
-          <option>Renovatie</option>
-          <option>Landbouwbouw</option>
-          <option>Paardenproject</option>
-          <option>Service &amp; onderhoud</option>
-          <option>Iets anders</option>
+          <option data-i18n="form.type.industrie">Industriebouw</option>
+          <option data-i18n="form.type.renovatie">Renovatie</option>
+          <option data-i18n="form.type.landbouw">Landbouwbouw</option>
+          <option data-i18n="form.type.paarden">Paardenproject</option>
+          <option data-i18n="form.type.service">Service &amp; onderhoud</option>
+          <option data-i18n="form.type.other">Iets anders</option>
         </select>
       </label>
       <label class="field">
-        <span>Vertel ons meer</span>
-        <textarea name="message" rows="5" placeholder="Korte beschrijving van uw project, locatie en gewenste oppervlakte..."></textarea>
+        <span data-i18n="form.message">Vertel ons meer</span>
+        <textarea name="message" rows="5" placeholder="Korte beschrijving van uw project, locatie en gewenste oppervlakte..." data-i18n-attr="placeholder:form.message.ph"></textarea>
       </label>
       <div class="form__footer">
         <button type="submit" class="btn btn--primary btn--lg">
-          Verzend aanvraag
+          <span data-i18n="form.submit">Verzend aanvraag</span>
           <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
-        <span class="form__note">We reageren binnen één werkdag.</span>
+        <span class="form__note" data-i18n="form.note">We reageren binnen één werkdag.</span>
       </div>
-      <p class="form__success" hidden>Bedankt — uw bericht is verzonden. We nemen snel contact op.</p>
+      <p class="form__success" hidden data-i18n="form.success">Bedankt — uw bericht is verzonden. We nemen snel contact op.</p>
     </form>
   </div>
 </section>
@@ -518,7 +524,7 @@
         <span class="logo__word">altez</span>
         <span class="logo__dot"></span>
       </a>
-      <p>
+      <p data-i18n="footer.brand.desc">
         Industriebouw, renovatie, landbouw en paardenprojecten — sinds 1989.
       </p>
       <p class="footer__vat">BE 0452.418.589</p>
@@ -526,28 +532,28 @@
 
     <div class="footer__cols">
       <div class="footer__col">
-        <span class="footer__head">Diensten</span>
-        <a href="#diensten">Industriebouw</a>
-        <a href="#diensten">Renovatie</a>
-        <a href="#diensten">Landbouwbouw</a>
-        <a href="#diensten">Paardenprojecten</a>
-        <a href="#diensten">Service &amp; onderhoud</a>
+        <span class="footer__head" data-i18n="footer.col.services">Diensten</span>
+        <a href="#diensten" data-i18n="services.industrie.title">Industriebouw</a>
+        <a href="#diensten" data-i18n="services.renovatie.title">Renovatie</a>
+        <a href="#diensten" data-i18n="services.landbouw.title">Landbouwbouw</a>
+        <a href="#diensten" data-i18n="services.paarden.title">Paardenprojecten</a>
+        <a href="#diensten" data-i18n="services.service.title">Service &amp; onderhoud</a>
       </div>
       <div class="footer__col">
-        <span class="footer__head">Bedrijf</span>
-        <a href="#over">Over Altez</a>
-        <a href="#realisaties">Realisaties</a>
-        <a href="#aanpak">Aanpak</a>
-        <a href="#">Vacatures</a>
-        <a href="#">Nieuws</a>
+        <span class="footer__head" data-i18n="footer.col.company">Bedrijf</span>
+        <a href="#over" data-i18n="nav.about">Over Altez</a>
+        <a href="#realisaties" data-i18n="nav.projects">Realisaties</a>
+        <a href="#aanpak" data-i18n="nav.approach">Aanpak</a>
+        <a href="#" data-i18n="footer.link.vacatures">Vacatures</a>
+        <a href="#" data-i18n="footer.link.news">Nieuws</a>
       </div>
       <div class="footer__col">
-        <span class="footer__head">Productie</span>
+        <span class="footer__head" data-i18n="footer.col.production">Productie</span>
         <a href="#">Meco Metal</a>
         <a href="#">LG-Beton</a>
       </div>
       <div class="footer__col">
-        <span class="footer__head">Contact</span>
+        <span class="footer__head" data-i18n="footer.col.contact">Contact</span>
         <a href="tel:+3251259999">+32 (0)51 25 99 99</a>
         <a href="tel:+3211790200">+32 (0)11 79 02 00</a>
         <a href="mailto:sales@altez.be">sales@altez.be</a>
@@ -558,13 +564,14 @@
   <div class="container footer__bottom">
     <span>© <span id="year">2026</span> Altez Construction Group</span>
     <div class="footer__legal">
-      <a href="#">Privacy</a>
-      <a href="#">Cookies</a>
-      <a href="#">Disclaimer</a>
+      <a href="#" data-i18n="footer.legal.privacy">Privacy</a>
+      <a href="#" data-i18n="footer.legal.cookies">Cookies</a>
+      <a href="#" data-i18n="footer.legal.disclaimer">Disclaimer</a>
     </div>
   </div>
 </footer>
 
+<script src="translations.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
